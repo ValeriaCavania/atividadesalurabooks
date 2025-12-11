@@ -87,8 +87,6 @@
             <p class="banner__texto">Encontre em nossa estante o que precisa para o seu desenvolvimento!</p>
         </div>
          <input type="search" class="banner__pesquisa" placeholder="Qual será a sua próxima leitura?">
-       
-
     </section>
 
     <section class="carrosel">
@@ -138,6 +136,57 @@
             </div>
     </section>
 
+    <section class="carrosel">
+        <h2 class="carrosel__titulo">Mais Vendidos</h2>
+         <!-- Slider main container -->
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot da alurabooks"></div>
+                    <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro sobre liderança em design da alurabooks"></div>
+                    <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre js assertivo da alurabooks"></div>
+                    <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro guia Front-end"></div>
+                    <div class="swiper-slide"><img src="img/Gestão.svg" alt="Livro Gestao"></div>
+                    <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Livro sobre acessibilidade"></div>
+                    ...
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="card">
+                <div class="card__descricao">
+                    <div class="descricao">
+                        <img src="img/Estrelinhas.svg" alt="Avaliacao 5 estrelas">
+                        <h3 class="descricao__titulo">Autora do Mês</h3>
+                        <h2 class="descricao__titulo-livro">Juliana Agarivok</h2>
+                        <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                    </div>    
+                    <img src="img/Perfil-escritora 1.svg" alt="Foto da autora Juliana">
+                </div>
+                
+                
+                <div class="card__botoes">
+                    <ul class="botoes">
+                        <li class="botoes__item">
+                            <img src="img/Favoritos.svg" alt="Favoritos">
+                        </li>
+                        <li class="botoes__item">
+                            <img src="img/Compras.svg" alt="Adicionar ao carrinho">
+                        </li>
+                    </ul>
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+                </div>
+
+            </div>
+
+            
+    </section>
+
     <section class="topicos">
         <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
         <ul class="topicos__lista">
@@ -169,8 +218,10 @@
     </section>
 
     <section class="contato">
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
         <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
     </section>
 
@@ -178,6 +229,7 @@
 
     <footer class="rodape">
         <h2 class="rodape__titulo">Grupo Alura</h2>
+        
         <ul class="lista-rodape">
             <li class="lista-rodape__titulo">Educação</li>
             <li class="lista-rodape__item">
