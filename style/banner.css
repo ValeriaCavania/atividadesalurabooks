@@ -40,6 +40,7 @@
 @media screen and (min-width:1024px){
     .banner{
         display: flex;
+        align-items: center;
     }
 
     .banner__container{
@@ -49,13 +50,18 @@
         align-items: center;
     }
 
+    .banner__titulo{
+        font-size: 36px;
+    }
+
     .banner__pesquisa{
         margin-left: 10em;
-        width: 100%;
+        width: 60%;
+        height: 30%;
     }
 
     .banner__pesquisa::placeholder{
-        background-position: 0.1em;
+        background-position: 5em;
     }
 
 

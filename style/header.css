@@ -56,7 +56,15 @@
 
 }
 
-.container__botao{
+.container__botao{ /*tira o checkbox do menu-hamburguer*/
+    display: none;
+}
+
+.container__titulo{
+    display: none;
+}
+
+.opcoes{
     display: none;
 }
 
